@@ -1,0 +1,103 @@
+/* COLLECTION */
+
+* {
+  box-sizing: border-box;
+font-family: 'Kanit', sans-serif;
+}
+
+body {
+  background: #000000;
+  color: #EAEAEA;
+  margin: 0;
+  padding: 0;
+  line-height: 1.3;
+  font-size: 16px;
+  min-height: 100vh;
+  max-width: 100vw;
+  background-image: url(images/sun.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.no-bg{
+  background-image: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+main{
+  max-width: 1200px;
+  margin: 25vh auto;
+  padding: 16px;
+}
+
+/* TYPE */
+p{
+  font-weight: 500;
+  margin: 0 0 1em 0;
+  color: rgb(175, 158, 187);
+  max-width: 35em;
+}
+
+footer{
+  margin-left: 1em;
+}
+
+h1{
+  font-weight: 500;
+  margin: 64px;
+  line-height: 100%;
+  letter-spacing: -2px;
+  margin: 0;
+  font-size: 80px;
+}
+
+h2{
+  font-size: 50px;
+  margin: 0 0 8px solid;
+  text-align: center;
+  font-weight: 100;
+}
+
+h3{
+  font-size: 32px;
+  font-weight: 500;
+ 
+}
+h4{
+  font-size: 32px;
+  font-weight: 500;
+  margin-top: 45px;
+  margin-bottom: 30px;
+}
+  /* BUTTON */
+.button{
+  color: aliceblue;
+  border: 2px solid;
+  border-radius: 32px;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 4px 16px;
+  margin-top: 1em;
+  margin-right: 3px;
+  margin-left: 10px;
+  margin-bottom: 1em;
+  display: inline-block;
+  transition: all 0.5s;
+}
+
+.button:hover {
+color: rgb(79, 204, 204);
+}
+
+/* GRID */
+.grid {
+  display: grid;
+grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+gap: 16px;
+padding: 16px;
+text-align: center;
+}
